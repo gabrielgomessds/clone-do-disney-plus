@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: #040714;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url('../images/capa.jpg');
+    background-position: right;
+    background-size:cover;
+}
+.barra{
+    width: 100%;
+    height: 70px;
+    background-color: #090b13;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    opacity: 0;
+    transition: 0.8s;
+    z-index: 99999;
+}
+.barra img{
+    width: 80px;
+    padding: 10px 30px;
+}
+.header-left{
+    margin-top: -140px;
+    margin-left: 30px;
+    position: relative;
+   
+}
+.header-left h1{
+   color: #f9f9f9;
+   font-size: 36px;
+   margin-top: 25px;
+}
+.header-left img{
+    width: 160px;
+    height: 87px;
+}
+.header-left strong{
+    font-size: 10px;
+    color: #9d9ea2;
+}
+.planos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #f9f9f9;
+    font-size: 25px;
+}
+.planos strong{
+    color: #9d9ea2;
+    font-size: 16px;
+}
+
+.plano-mensal{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.plano-mensal h3{
+    margin-bottom: 30px;
+}
+.plano-anual{
+    display: flex;
+    flex-direction: column;
+}
+.services img{
+    margin-top: 60px;
+    width: 600px;
+    height: 35px;
+}
+
+.header-right{
+    height: 800px;
+    width: 200px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;  
+}
+
+.botao-entrar{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #f9f9f9;
+    background: rgba(0,0,0,0.6);
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed ;
+    margin-right: 30px;
+    margin-left: 0px;
+    transition: 0.1s;
+    z-index: 99999;
+    
+}
+.botao-entrar:hover{
+    color: black;
+    background-color: #f9f9f9;
+}
+.botao-assinatura-header{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: #f9f9f9;
+    background: #0063e5;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 13%;
+    margin-top: 15px ;
+    z-index: 99999;
+}
+.botao-assinatura-header:hover{
+    background-color: #247ff7;
+}
+
+.telas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    padding-bottom: 130px;
+}
+.telas-texto h2{
+    color: #f9f9f9;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.telas-texto p{
+    color: #929396;
+    font-size: 18px;
+}
+
+.telas-img img{
+    width: 1950px;
+    height: 500px;
+    max-width: 100%;
+   
+}
+.filmes-exclusivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.filmes-exclusivos h2{
+    color: #f9f9f9;
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 37px;
+}
+.filmes-exclusivos p{
+    color: #929396;
+    font-size: 18px;
+}
+.img-filmes{
+    width:95vw;
+	max-width:13240px;
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+    margin-bottom: 132px;
+}
+.img-filmes img{
+    max-width: 410px;
+    width: 410px;
+    padding: 10px;
+    border-radius: 4.6%;
+}
+.botao-assinatura{
+    background-color: #0063e5;
+    color: #f9f9f9;
+    height: 60px;
+    width: 320px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-assinatura:hover{
+    background-color: #247ff7;
+}
+
+.baixar-filmes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/king_lion.png');
+    background-position: center;
+    background-size: cover;
+}
+.div-img{
+    height: 770px;
+    width: 770px;
+    padding: 30px;
+}
+.div-texto{
+    padding: 0px 70px;
+}
+.section-titulo{
+    color: #f9f9f9;
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 37px;
+}
+.section-texto{
+    color: #929396;
+    font-size: 18px;
+    
+}
+
+.outros-filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+.outros-filmes h2{
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 37px;
+}
+.outros-filmes p{
+    color: #929396;
+    font-size: 18px;
+    padding: 0px 60px;
+    text-align: center;
+}
+
+.dispositivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dispositivos h2{
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 37px;
+}
+.container-aparelhos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 260px;
+    flex-wrap: wrap;
+}
+.aparelho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aparelho img{
+    width: 300px;
+}
+.aparelho h3{
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.aparelho ul li{
+    list-style: none;
+}
+.aparelho li{
+    color: #929396;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 60px;
+}
+.add{
+    padding-bottom: 130px;
+}
+.mini-add{
+    padding-bottom: 30px;
+}
+footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer img{
+    width: 100px;
+
+}
+.menu-rodape{
+    padding: 8px 12px;
+}
+.menu-rodape ul li{
+    list-style: none;
+    display: inline;
+}
+.menu-rodape li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #929396;
+    padding: 0px 10px;
+}
+.menu-rodape li a:hover{
+    color: #f9f9f9;
+}
+
+footer p{
+    font-size: 13px;
+    color: #929396;
+    padding-top: 10px;
+}
+footer .infor{
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.linha{
+    display: none;
+}
+/* ---------------------------------------------------- */
+
+@media(max-width:768px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:  linear-gradient( to bottom, transparent -2%, #040714 85%), url('../images/capa2.jpg');
+        background-position: center;
+        width: 100%;
+        height: 500px;
+    }
+    .services{
+        display: none;
+    }
+    .header-left{
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+        text-align: center;
+        width: 100%;
+        margin-left: 20%;
+    }
+    .header-left img{
+        margin-left: 35%;
+    }
+    .planos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .plano-anual h3{
+        font-size: 25px;
+    }
+    .plano-mensal h3{
+        margin-bottom: 0px;
+    }
+    .plano-anual .botao-assinatura{
+        margin-bottom: 32px ;
+    }
+    
+    .header-left h1{
+        font-size: 26px;
+    }
+    .header-left .sem-br{
+        display: none;
+    }
+    .header-right{
+        width: 280px;
+ 
+     }
+     .botao-entrar{
+         margin-top: 158px;
+     }
+     .botao-assinatura-header{
+        margin-right: 20%;
+     }
+    .linha{
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #363943;
+        margin: 10px 0px;
+    }
+    .telas{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 260px;
+        background-color: #040714;
+        padding-bottom: 130px;
+        text-align: center;
+    }
+ 
+}
+@media(max-width:450px){
+    .barra{
+        display: flex;
+        justify-content: center;
+    }
+    .botao-entrar{
+        margin-right: 80px;
+    }
+    .filmes-exclusivos{
+        text-align: center;
+    }
+    .div-img{
+        width: 50px;
+        height: 700px;
+    }
+    .div-texto{
+        padding: 0px 70px;
+    }
+}
